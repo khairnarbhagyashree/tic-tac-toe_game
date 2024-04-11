@@ -85,6 +85,8 @@ function App() {
         ...prevTurns,
       ];
 
+      console.log(updatedTurns);
+
       return updatedTurns;
     });
   }
